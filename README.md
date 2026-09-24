@@ -107,9 +107,37 @@ This project is created for learning and demonstration purposes. It is not suita
 ```text
 ATM-Management-system/
 ├── Atm managment system.cpp
-├── accounts.txt              # Created automatically when the program runs
-└── README.md
+│   └── Main C++ source file
+│       ├── New account registration
+│       ├── Card and PIN authentication
+│       ├── Balance inquiry
+│       ├── Fast cash withdrawal
+│       ├── Custom cash withdrawal
+│       ├── Mini statement and transaction history
+│       └── File-based account data management
+│
+├── README.md
+│   └── Project documentation
+│       ├── Features and technologies
+│       ├── Requirements
+│       ├── Compilation and run instructions
+│       ├── Usage instructions
+│       ├── Demo accounts
+│       └── Security notes
+│
+├── accounts.example.txt
+│   └── Example account data file for testing and demonstration
+│
+└── accounts.txt
+    └── Runtime-generated account data file
+        ├── Account number
+        ├── PIN
+        ├── Balance
+        ├── Account holder name
+        └── Registered mobile number
 ```
+
+> `accounts.txt` is created by the application at runtime and may not exist in a fresh clone of the repository. Keep it in the same directory as the executable.
 
 ## Future Improvements
 
